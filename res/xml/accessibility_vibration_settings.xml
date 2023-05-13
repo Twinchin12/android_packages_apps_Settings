@@ -85,12 +85,12 @@
         android:title="@string/misc_vibration_category" >
 
     <!-- Volume panel feedback -->
-        <com.banana.support.preferences.SystemSettingSwitchPreference
+    <com.banana.support.preferences.SystemSettingSwitchPreference
             android:key="volume_panel_haptic_feedback"
             android:title="@string/volume_panel_haptic_feedback_title"
             android:defaultValue="false" />
     
-        <com.banana.support.preference.SystemSettingSwitchPreference
+    <com.banana.support.preferences.SystemSettingSwitchPreference
             android:key="scroll_fling_haptic_feedback"
             android:title="@string/scroll_fling_haptic_feedback_title"
             android:summary="@string/scroll_fling_haptic_feedback_summary"
